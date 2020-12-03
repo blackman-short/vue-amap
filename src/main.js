@@ -2,23 +2,34 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import store from './store'
 import router from './router'
-import VueAMap from 'vue-amap'
+import './plugins/element.js'
+import './plugins/vchart.js'
+import './plugins/dialogAlert.js'
 
-Vue.use(VueAMap)
+import './assets/css/index.css'
+import 'element-ui/lib/theme-chalk/index.css'
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min'
+
+import IntroJs from 'intro.js'
+import 'intro.js/introjs.css'
+import 'intro.js/themes/introjs-flattener.css'
+
+Vue.use(IntroJs)
+
 Vue.config.productionTip = false
 
-// 初始化vue-amap
-VueAMap.initAMapApiLoader({
-  // 高德key
-  key: 'e4d1ae99c2993eda5802a3685254928b',
-  // 插件集合 （插件按需引入）
-  plugin: ['AMap.Geolocation']
-})
+if (sessionStorage.getItem('funny')) {
+  store.replaceState(Object.assign({}, JSON.parse(sessionStorage.getItem('funny'))))
+}
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   router,
   components: { App },
   template: '<App/>'

@@ -1,6 +1,6 @@
-# vue-amap
+# v-chart-demo
 
-> A Vue.js project
+> v-chart demo
 
 ## Build Setup
 

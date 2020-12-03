@@ -1,0 +1,151 @@
+/* color */
+.color-f4516c {
+  color: #f4516c;
+}
+
+.color-ff4949 {
+  color: #ff4949
+}
+
+.color-409eff {
+  color: #409eff;
+}
+
+.color-79bbff {
+  color: #79bbff
+}
+
+.color-79bbff:hover {
+  color: #409eff;
+}
+
+.color-badff8 {
+  color: #badff8
+}
+
+.color-13ce66 {
+  color: #13ce66
+}
+
+.color-73c846 {
+  color: #73c846
+}
+
+.color-34bfac {
+  color: #34bfac
+}
+
+.color-05a89a {
+  color: #05a89a
+}
+
+.color-05a89a:hover {
+  color: #098d91
+}
+
+.color-e1f3d8 {
+  color: #e1f3d8
+}
+
+.color-burlywood {
+  color: burlywood
+}
+
+.color-burlywood:hover {
+  color: #e4a02b
+}
+
+.color-e4a02b {
+  color: #e4a02b
+}
+
+.color-8a8a8a {
+  color: #8a8a8a;
+}
+
+.color-7e8ca3 {
+  color: #7e8ca3
+}
+
+.color-303133 {
+  color: #303133
+}
+
+.color-666 {
+  color: #666666
+}
+
+.color-c {
+  color: #cccccc;
+}
+
+.color-f {
+  color: #ffffff
+}
+
+.color-cdcdcd {
+  color: #cdcdcd
+}
+
+.color-cdcdcd:hover {
+  color: #04386f
+}
+
+.color-6988a9 {
+  color: #6988a9
+}
+
+.color-6988a9:hover {
+  color: #04386f
+}
+
+.color-theme {
+  color: #04386f
+}
+
+/* bg-color */
+.bg-theme {
+  background-color: #04386f
+}
+
+.bg-fdf6ec {
+  background-color: #fdf6ec
+}
+
+.bg-default {
+  background-color: RGB(230, 230, 230, .1)
+}
+
+.bg-f {
+  background-color: #ffffff
+}
+
+.bg-eef1f6 {
+  background-color: #eef1f6
+}
+
+.el-table .bgcolor-f0f9eb {
+  background-color: #f0f9eb
+}
+
+.el-table .bgcolor-fdf6ec {
+  background-color: #fdf6ec
+}
+
+/* border-color */
+.border-c-f {
+  border-color: #ffffff
+}
+
+.border-c-67C23A{
+  border-color: #67C23A
+}
+
+/* opacity */
+.opacity-03 {
+  opacity: .3;
+}
+
+.introjs-button:focus, .introjs-button:hover {
+  color: #ffffff !important
+}
