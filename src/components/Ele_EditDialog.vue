@@ -229,6 +229,10 @@ export default {
         const imgUpload = this.fieldObjArray.find(x => x.type === 'upload')
         if (imgUpload && imgUpload.field) {
           this.localEditModel[imgUpload.field] = this.uploadImgList
+          if (!this.localEditModel[imgUpload.field]) {
+            this.showMessage('文件正在上传，请稍后...', 'warning')
+            return
+          }
         }
 
         this.showDialog = false
