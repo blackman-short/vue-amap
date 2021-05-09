@@ -21,7 +21,7 @@
     "intro.js": "^2.9.3",
     "less": "^3.11.3",
     "less-loader": "4.1.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "moment": "^2.27.0",
     "popper.js": "^1.16.1",
     "script-loader": "^0.7.2",
